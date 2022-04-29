@@ -600,7 +600,8 @@ progress {
 
 .img-fluid {
   max-width: 100%;
-  height: auto;
+  height: 100%;
+  object-fit: cover;
 }
 
 .img-thumbnail {
@@ -610,6 +611,8 @@ progress {
   border-radius: 0.25rem;
   max-width: 100%;
   height: auto;
+  margin-bottom: 25px;
+  width: 210px;
 }
 
 .figure {
@@ -3030,13 +3033,13 @@ textarea.form-control-lg {
 
 .btn-primary {
   color: #fff;
-  background-color: #1D809F;
-  border-color: #1D809F;
+  background-color: #370db4;
+  border-color: #370db4;
 }
 .btn-primary:hover {
   color: #fff;
-  background-color: #196d87;
-  border-color: #17667f;
+  background-color: #591e90;
+  border-color: #591e90;
 }
 .btn-check:focus + .btn-primary, .btn-primary:focus {
   color: #fff;
@@ -11339,7 +11342,7 @@ html {
   height: 100%;
   transition: all 0.4s ease 0s;
   transform: translateX(250px);
-  background: #1D809F;
+  background: #a63ec1;
   border-left: 1px solid rgba(255, 255, 255, 0.1);
 }
 
@@ -11431,11 +11434,13 @@ html {
   font-weight: 700;
   display: block;
   max-width: 30rem;
+  color: white;
 }
 
 footer.footer {
   padding-top: 5rem;
   padding-bottom: 5rem;
+  background: #370db4;
 }
 footer.footer .social-link {
   display: block;
@@ -11485,7 +11490,13 @@ footer.footer .social-link:hover {
   font-size: 4rem;
   margin: 0;
   padding: 0;
+  color: white;
 }
+.masthead h3 {
+  color: white;
+}
+#masthead-link       {color: white;}
+#masthead-link:hover {color: #d371ed;}
 @media (min-width: 992px) {
   .masthead {
     height: 100vh;
@@ -11501,12 +11512,13 @@ footer.footer .social-link:hover {
   overflow: hidden;
   max-width: 530px;
   margin: auto auto 1rem;
+  height: 349px;
 }
 .portfolio-item .caption {
   display: flex;
   height: 100%;
   width: 100%;
-  background-color: rgba(33, 37, 41, 0.2);
+  background-color: rgba(33, 37, 41, 0.55);
   position: absolute;
   top: 0;
   bottom: 0;
@@ -11554,7 +11566,7 @@ footer.footer .social-link:hover {
             clip-path: inset(2rem);
   }
   .portfolio-item:hover .caption {
-    background-color: rgba(29, 128, 159, 0.9);
+    background-color: rgba(89,30,144,0.9);
     -webkit-clip-path: inset(2rem);
             clip-path: inset(2rem);
   }
@@ -11569,4 +11581,33 @@ footer.footer .social-link:hover {
   line-height: 7.5rem;
   font-size: 2.25rem;
   box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.1);
+}
+
+#elm-carousel {height: 400px; width: 100%;}
+#elm-carousel img, #elm-carousel video {width: 100%; height: 400px; object-fit: cover;}
+
+section#easiom_lm {
+  background: #4f4dc1;
+}
+
+section#contact {
+  background: #772fe5;
+}
+
+.contact-link {
+  color: white;
+  font-size: 20px;
+  text-decoration: none;
+  transition: 0.25s;
+}
+.contact-link:hover {color: #111f24;}
+
+::-moz-selection { /* Code for Firefox */
+  color: white;
+  background: #840ba4;
+}
+
+::selection {
+  color: white;
+  background: #840ba4;
 }
