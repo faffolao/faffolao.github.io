@@ -3033,13 +3033,13 @@ textarea.form-control-lg {
 
 .btn-primary {
   color: #fff;
-  background-color: #370db4;
-  border-color: #370db4;
+  background-color: #08233c;
+  border-color: #08233c;
 }
 .btn-primary:hover {
   color: #fff;
-  background-color: #591e90;
-  border-color: #591e90;
+  background-color: #040507;
+  border-color: #040507;
 }
 .btn-check:focus + .btn-primary, .btn-primary:focus {
   color: #fff;
@@ -11342,7 +11342,7 @@ html {
   height: 100%;
   transition: all 0.4s ease 0s;
   transform: translateX(250px);
-  background: #a63ec1;
+  background: #a9c7ca;
   border-left: 1px solid rgba(255, 255, 255, 0.1);
 }
 
@@ -11358,13 +11358,13 @@ html {
 .sidebar-nav li.sidebar-nav-item a {
   display: block;
   text-decoration: none;
-  color: #fff;
+  color: black;
   padding: 15px;
 }
 
 .sidebar-nav li a:hover {
   text-decoration: none;
-  color: #fff;
+  color: #08233c;
   background: rgba(255, 255, 255, 0.2);
 }
 
@@ -11384,12 +11384,12 @@ html {
 }
 
 .sidebar-nav > .sidebar-brand a {
-  color: #fff;
+  color: black;
   text-decoration: none;
 }
 
 .sidebar-nav > .sidebar-brand a:hover {
-  color: #fff;
+  color: #08233c;
   background: none;
 }
 
@@ -11433,14 +11433,14 @@ html {
   font-size: 3.5rem;
   font-weight: 700;
   display: block;
-  max-width: 30rem;
+  /* max-width: 30rem; */
   color: white;
 }
 
 footer.footer {
   padding-top: 5rem;
   padding-bottom: 5rem;
-  background: #370db4;
+  background: #08233c;
 }
 footer.footer .social-link {
   display: block;
@@ -11454,7 +11454,7 @@ footer.footer .social-link {
   box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.1);
 }
 footer.footer .social-link:hover {
-  background-color: #155d74;
+  background-color: #08233c;
   text-decoration: none;
 }
 
@@ -11566,7 +11566,7 @@ footer.footer .social-link:hover {
             clip-path: inset(2rem);
   }
   .portfolio-item:hover .caption {
-    background-color: rgba(89,30,144,0.9);
+    background-color: rgba(8,35,60,0.9);
     -webkit-clip-path: inset(2rem);
             clip-path: inset(2rem);
   }
@@ -11587,11 +11587,11 @@ footer.footer .social-link:hover {
 #elm-carousel img, #elm-carousel video {width: 100%; height: 400px; object-fit: cover;}
 
 section#easiom_lm {
-  background: #4f4dc1;
+  background: #114e6b;
 }
 
 section#contact {
-  background: #772fe5;
+  background: #0b7a9d;
 }
 
 .contact-link {
@@ -11604,10 +11604,14 @@ section#contact {
 
 ::-moz-selection { /* Code for Firefox */
   color: white;
-  background: #840ba4;
+  background: #040507;
 }
 
 ::selection {
   color: white;
-  background: #840ba4;
+  background: #040507;
+}
+
+.loghi {
+  margin-bottom: 20px;
 }
